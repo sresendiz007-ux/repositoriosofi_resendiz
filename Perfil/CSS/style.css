@@ -1,0 +1,144 @@
+/* Color Palette */
+:root {
+  --pink: #EDAFB8;
+  --peach: #F7E1D7;
+  --taupe: #DEDBD2;
+  --sage: #B0C4B1;
+  --charcoal: #4A5759;
+}
+
+/* Body & General Styles */
+body {
+  max-width: 1300px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* First Grid: Logo & About */
+.logo-section {
+  height: 700px;
+}
+
+.about-section {
+  height: 700px;
+}
+
+.w3-half.w3-black {
+  background-color: var(--sage) !important;
+  color: white;
+}
+
+.w3-half.w3-blue-grey {
+  background-color: var(--peach) !important;
+  color: var(--charcoal);
+}
+
+/* Second Grid: Work & Resume */
+.work-section {
+  min-height: 800px;
+}
+
+.resume-section {
+  min-height: 800px;
+}
+
+.work-section img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.resume-table {
+  width: 100%;
+}
+
+.w3-half.w3-light-grey {
+  background-color: var(--taupe) !important;
+}
+
+.w3-half.w3-indigo {
+  background-color: var(--sage) !important;
+  color: var(--charcoal);
+}
+
+/* Third Grid: Contact */
+.swing-section {
+  height: 700px;
+}
+
+.contact-section {
+  height: 700px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-form input {
+  width: 100%;
+}
+
+.button-submit {
+  float: right;
+}
+
+.w3-half.w3-dark-grey {
+  background-color: var(--charcoal) !important;
+}
+
+.w3-half.w3-teal {
+  background-color: var(--pink) !important;
+  color: var(--charcoal);
+}
+
+/* Button Hover Effects */
+.w3-button.w3-hover-blue-grey:hover {
+  background-color: var(--peach) !important;
+  color: var(--charcoal);
+}
+
+.w3-button.w3-hover-teal:hover {
+  background-color: var(--pink) !important;
+  color: var(--charcoal);
+}
+
+.w3-button.w3-hover-dark-grey:hover {
+  background-color: var(--sage) !important;
+  color: var(--charcoal);
+}
+
+.w3-button.w3-hover-brown:hover {
+  background-color: var(--taupe) !important;
+  color: var(--charcoal);
+}
+
+/* Form Styles */
+.w3-button.w3-teal {
+  background-color: var(--sage) !important;
+  color: white;
+}
+
+.w3-button.w3-teal:hover {
+  background-color: var(--charcoal) !important;
+}
+
+/* Footer */
+.w3-container.w3-black {
+  background-color: var(--charcoal) !important;
+}
+
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .logo-section,
+  .about-section,
+  .swing-section,
+  .contact-section {
+    height: auto;
+  }
+
+  .w3-half {
+    width: 100% !important;
+  }
+}
